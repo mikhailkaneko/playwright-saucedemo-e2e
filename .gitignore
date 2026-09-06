@@ -1,0 +1,8 @@
+node_modules/ 
+test-results/ 
+playwright-report/ 
+playwright-report.rar 
+results.txt 
+blob-report/ 
+playwright/.cache/ 
+.DS_Store
