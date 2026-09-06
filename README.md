@@ -6,9 +6,8 @@ An end-to-end automated test suite for [SauceDemo](https://www.saucedemo.com), a
 
 ## Project Overview
 
-SauceDemo is a sample e-commerce web application (login, product catalog, shopping cart, checkout) commonly used for QA automation practice. This project automates the application's core user journeys — authentication, cart management, and checkout — to demonstrate a maintainable, real-world test automation framework rather than a single script.
-
-The goal of this project is to show solid automation practices: a clean Page Object structure, meaningful assertions, negative-path coverage, and a CI pipeline — not just "happy path" clicking.
+SauceDemo is a sample e-commerce web application (login, product catalog, shopping cart, checkout) commonly used for QA automation practice. This project automates the application's core user journeys — authentication, cart management, and checkout.
+The goal of this project is to show automation practices: a clean Page Object structure, meaningful assertions, negative-path coverage, and a CI pipeline — not just "happy path" clicking.
 
 ## Tech Stack
 
@@ -28,7 +27,7 @@ The goal of this project is to show solid automation practices: a clean Page Obj
 
 - **13 test cases** across 3 spec files
 - Runs cross-browser: **Chromium, Firefox, WebKit**
-- Covers both **positive and negative** scenarios (not just happy paths)
+- Covers both **positive and negative** scenarios
 - HTML report with screenshots/video/trace generated automatically on failure
 
 ## Setup Instructions
@@ -69,10 +68,3 @@ npm run report
 └── playwright.config.ts
 ```
 
-## About Me
-
-I recently completed the Microsoft Junior QA/Software Tester certification and I'm transitioning into QA after several years running my own e-commerce and clothing business — managing suppliers, order fulfillment, and customer-facing operations. That background gave me a close, practical understanding of how e-commerce flows (like the ones tested here) actually work and where they tend to break, which now translates directly into attention to detail, structured thinking, and clear defect documentation in QA.
-
-**Toolkit:** Playwright · Postman · SQL · Jira · Zephyr · Azure DevOps · BrowserStack
-
-[LinkedIn](#) · [Resume](#)
